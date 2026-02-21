@@ -1,0 +1,59 @@
+Windows Registry Editor Version 5.00
+
+; Add "Open with Universal Player" to context menu for video files
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\OpenWithUniversalPlayer]
+@="使用全能播放器打开"
+"Icon"="C:\\Users\\Administrator\\Desktop\\全能播放器\\dist\\全能播放器.exe"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp4\shell\OpenWithUniversalPlayer\command]
+@="\"C:\\Users\\Administrator\\Desktop\\全能播放器\\dist\\全能播放器.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\OpenWithUniversalPlayer]
+@="使用全能播放器打开"
+"Icon"="C:\\Users\\Administrator\\Desktop\\全能播放器\\dist\\全能播放器.exe"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shell\OpenWithUniversalPlayer\command]
+@="\"C:\\Users\\Administrator\\Desktop\\全能播放器\\dist\\全能播放器.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\OpenWithUniversalPlayer]
+@="使用全能播放器打开"
+"Icon"="C:\\Users\\Administrator\\Desktop\\全能播放器\\dist\\全能播放器.exe"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mkv\shell\OpenWithUniversalPlayer\command]
+@="\"C:\\Users\\Administrator\\Desktop\\全能播放器\\dist\\全能播放器.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mov\shell\OpenWithUniversalPlayer]
+@="使用全能播放器打开"
+"Icon"="C:\\Users\\Administrator\\Desktop\\全能播放器\\dist\\全能播放器.exe"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mov\shell\OpenWithUniversalPlayer\command]
+@="\"C:\\Users\\Administrator\\Desktop\\全能播放器\\dist\\全能播放器.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\OpenWithUniversalPlayer]
+@="使用全能播放器打开"
+"Icon"="C:\\Users\\Administrator\\Desktop\\全能播放器\\dist\\全能播放器.exe"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.mp3\shell\OpenWithUniversalPlayer\command]
+@="\"C:\\Users\\Administrator\\Desktop\\全能播放器\\dist\\全能播放器.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.wav\shell\OpenWithUniversalPlayer]
+@="使用全能播放器打开"
+"Icon"="C:\\Users\\Administrator\\Desktop\\全能播放器\\dist\\全能播放器.exe"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.wav\shell\OpenWithUniversalPlayer\command]
+@="\"C:\\Users\\Administrator\\Desktop\\全能播放器\\dist\\全能播放器.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.flac\shell\OpenWithUniversalPlayer]
+@="使用全能播放器打开"
+"Icon"="C:\\Users\\Administrator\\Desktop\\全能播放器\\dist\\全能播放器.exe"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.flac\shell\OpenWithUniversalPlayer\command]
+@="\"C:\\Users\\Administrator\\Desktop\\全能播放器\\dist\\全能播放器.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\*\shell\OpenWithUniversalPlayer]
+@="使用全能播放器打开"
+"Icon"="C:\\Users\\Administrator\\Desktop\\全能播放器\\dist\\全能播放器.exe"
+
+[HKEY_CLASSES_ROOT\*\shell\OpenWithUniversalPlayer\command]
+@="\"C:\\Users\\Administrator\\Desktop\\全能播放器\\dist\\全能播放器.exe\" \"%1\""

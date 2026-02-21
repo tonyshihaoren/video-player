@@ -1,0 +1,11 @@
+# Windows版本依赖
+PyQt6==6.6.1
+PyQt6-Qt6==6.6.1
+
+# Android版本依赖（Windows也可以运行测试）
+kivy==2.2.1
+kivymd==1.1.1
+
+# 打包工具（可选）
+# pyinstaller==6.3.0  # Windows打包exe
+# buildozer==1.5.0    # Android打包apk
